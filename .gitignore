@@ -1,0 +1,42 @@
+# ── Model weights ──────────────────────────────────────
+model/
+*.h5
+*.pb
+*.ckpt
+saved_model/
+
+# ── Dataset ─────────────────────────────────────────────
+data/
+dataset/
+ArASL*/
+*.zip
+*.tar.gz
+
+# ── Python cache ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Virtual environments ──────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── OS files ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs & temp outputs ───────────────────────────────────
+logs/
+*.log
+*.tmp
+
+# ── Results are tracked, but large files inside are not ──
+results/*.mp4
+results/*.avi
