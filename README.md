@@ -87,7 +87,7 @@ The notebook lets you:
 
 If you want to retrain from scratch:
 
-1. Download the [ArASL_Database_54K_Final dataset](https://www.kaggle.com/datasets/ammarsayedtaha/arabic-alphabets-sign-language-dataset-2022)
+1. Download the [ArASL_Database_54K_Final dataset](https://www.kaggle.com/datasets/gannayasser/arabic-alphabets-sign-language-dataset-arasl)
 2. Update `DATASET_ROOT` in `training.ipynb`
 3. Run all cells — model is saved to `model/SL.h5`
 
